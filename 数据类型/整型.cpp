@@ -19,5 +19,15 @@ int main(int argc, char *argv[])
   std::cout << "num2 = " << num2 << std::endl;
   std::cout << "num3 = " << num3 << std::endl;
   std::cout << "num4 = " << num4 << std::endl;
+  
+  //可以利用sizeof求出数据类型占用内存大小
+  //语法：sizeof（数据类型 / 变量）
+  std::cout << "short占用内存空间为：" << sizeof(num1) << std::endl;
+
+  std::cout << "int占用内存空间为：" << sizeof(num2) << std::endl;
+
+  std::cout << "long占用内存空间为：" << sizeof(num3) << std::endl;
+
+  std::cout << "long long占用内存空间为：" << sizeof(num4) << std::endl;
   return 0;
 }
